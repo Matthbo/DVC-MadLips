@@ -1,0 +1,101 @@
+@font-face {
+    font-family: 'lobster';
+    src: url('font/lobster_1.4-webfont.eot');
+    src: url('font/lobster_1.4-webfont.eot?#iefix') format('embedded-opentype'),
+         url('font/lobster_1.4-webfont.woff2') format('woff2'),
+         url('font/lobster_1.4-webfont.woff') format('woff'),
+         url('font/lobster_1.4-webfont.ttf') format('truetype'),
+         url('font/lobster_1.4-webfont.svg#lobster') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'triforce';
+    src: url('/font/triforce-webfont.eot');
+    src: url('/font/triforce-webfont.eot?#iefix') format('embedded-opentype'),
+         url('/font/triforce-webfont.woff2') format('woff2'),
+         url('/font/triforce-webfont.woff') format('woff'),
+         url('/font/triforce-webfont.ttf') format('truetype'),
+         url('/font/triforce-webfont.svg#triforce') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+*{
+	margin: 0;
+	padding:0;
+}
+
+body{
+	background-color: #373631;
+	width: 960px;
+	margin: 0 auto;
+	font-family: Tahoma;
+}
+
+.header{
+	font-family: lobster;
+	font-size: 32pt;
+	color: white;
+	text-shadow: 5px 5px 1px black;
+	padding: 20px;
+}
+
+#other{
+    position: fixed;
+    font-family: triforce;
+    font-size: 24pt;
+    color:#b20000;
+    text-shadow: 0px 1px 1px black;
+    margin:0;
+    top: 5px;
+    right: 5px;
+}
+
+.menu{
+	background-color: #AB2513;
+	padding: 10px 15px;
+}
+.menu ul li{
+	list-style: none;
+	display: inline-block;
+	margin-right: 30px;
+	color:white;
+}
+
+a{
+	color:inherit;
+	text-decoration: none;
+}
+
+.menu ul li a:hover{
+	text-decoration: underline;
+}
+
+#content{
+	background-color: white;
+	padding: 15px;
+}
+
+ #content h2{
+	margin: 10px 0;
+}
+
+#content table{
+	width: 100%;
+}
+
+#content tr td{
+	width: 50%;
+	padding: 10px 0;
+	text-align: left;
+	font-weight: normal;
+}
+
+.footer{
+	background-color: #535245;
+	padding: 10px;
+	text-align: center;
+	color: white;
+}
